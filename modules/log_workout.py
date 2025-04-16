@@ -60,7 +60,7 @@ def Log_Workout(username: str): # Workout logging module
             wlog.close()
         break
 
-Log_Workout(username)
+# Log_Workout(username)
 
 # Issue: f-string exercise variables don't update in list after user input. An oversight
 # Solution: Append f-strings containing variables after user input
