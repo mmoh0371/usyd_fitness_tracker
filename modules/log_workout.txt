@@ -1,0 +1,11 @@
+# exercise.lower()
+
+distance = str("3.5 km")
+x = distance.split(" ")
+y = float(x[0])
+z = str(x[1])
+print(x)
+print(y)
+print(z)
+
+finally # not really needed
