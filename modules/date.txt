@@ -120,3 +120,49 @@ print(valid)
 print(mmL)
 print(yyyyL)
 """
+
+"""
+    for i in range(len(err_values)): # Simple hotfix to print error messages based on binary value (valid / not valid) with respect to priority
+        for err in err_values:
+            if (i == 0 and err == 0):
+                print(err_message[0])
+                break
+            elif (i == 1 and err == 0):
+                print(err_message[1])
+                break
+            else:
+                print(err_message[2])
+                break
+    print(err_values)
+"""
+
+        for i in range(len(date)):
+            valchar.append(str(date[i]))
+        print(valchar)
+        for i in valchar: # Fishing for errors when attempting to find separator by converting type
+            try:
+                chardump.append(int(valchar[i]))
+            except:
+                tmp = i
+                pass
+
+        print(tmp)
+        print(valchar)
+        print(chardump)
+        # bad_date = str(date)
+        # print(sep)
+        # print(bad_date)
+        # date_spl = date.split(str(sep))
+        # print(sep)
+        # print(date_spl)
+        # mm = date_spl[0]
+        # yyyy = date_spl[1]
+
+            
+    valchar = [] # List used in event of irregular date
+    chardump = [] # Part of Hotfix. Would have been quicker to just do it right in the first place...
+    tmp = 0
+
+        print(dchar)
+    print(valid_ints)
+    print(len(date))
